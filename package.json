@@ -1,0 +1,26 @@
+{
+  "name": "locklock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kaspernj/locklock-js.git"
+  },
+  "author": "k@spernj.org",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaspernj/locklock-js/issues"
+  },
+  "homepage": "https://github.com/kaspernj/locklock-js#readme",
+  "dependencies": {
+    "velocious": "^1.0.1"
+  },
+  "devDependencies": {
+    "jasmine": "^4.1.0"
+  }
+}
