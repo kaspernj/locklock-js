@@ -1,4 +1,16 @@
 before_script:
   - npm install
-script:
-  - npm test
+builds:
+  application:
+    paths:
+      - "**/*"
+      - "!spec/**"
+    script:
+      - npm test
+  specs:
+    paths:
+      - "**/*"
+      - "!index.js"
+      - "!src/**"
+    script:
+      - npm test
